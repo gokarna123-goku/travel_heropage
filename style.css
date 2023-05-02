@@ -104,6 +104,15 @@ a{
     width: 45%;
     height: auto;
 }
+.title{
+    font-size: 5.5rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+}
+
 
 .img_section{
     width: 55%;
