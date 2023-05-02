@@ -33,6 +33,24 @@ a{
     padding: 40px 175px;
     overflow: hidden;
 }
+/* Flying Plane Animation */
+.plane_img{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    top: 21%;
+    left: 0;
+    animation: flyingPlane 1.5s ease-out 1 alternate;
+}
+
+@keyframes flyingPlane {
+    from {
+        transform: translateX(-100%);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
 
 /* Navbar Section */
 .navbar_section{
