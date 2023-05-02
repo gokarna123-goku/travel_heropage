@@ -172,8 +172,6 @@ a{
 }
 
 
-
-
 .img_section{
     width: 55%;
     height: 89.9vh;
@@ -181,6 +179,28 @@ a{
 .img_section .img{
     width: 100%;
     height: 100%;
+    animation: moveToTop 1.5s ease-out 1 alternate;
+}
+
+
+/* Animation on the Text and Image as well */
+
+@keyframes moveToRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+/* For images */
+@keyframes moveToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 
