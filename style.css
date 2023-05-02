@@ -34,21 +34,28 @@ a{
     overflow: hidden;
 }
 /* Flying Plane Animation */
-.plane_img{
+.plane_section{
     position: absolute;
-    width: 100px;
-    height: 40px;
+    width: 100%;
+    height: auto;
     top: 21%;
     left: 0;
-    animation: flyingPlane 1.5s ease-out 1 alternate;
+}
+.plane_img{
+    width: 100px;
+    height: 40px;
+    animation: flyingPlane 10s ease-out infinite reverse;
 }
 
 @keyframes flyingPlane {
-    from {
-        transform: translateX(-100%);
+    0% {
+        transform: translateX(1500%);
     }
-    to{
-        transform: translateX(0);
+    90% {
+        transform: translateY(50px);
+    }
+    100% {
+        transform: translateX(-100%);
     }
 }
 
