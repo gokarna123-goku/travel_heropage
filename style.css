@@ -112,6 +112,15 @@ a{
     text-transform: uppercase;
     margin-bottom: 1.2rem;
 }
+.style_title{
+    font-size: 5.0rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: var(--secondary);
+    margin-bottom: 1.3rem;
+}
+
+
 
 
 .img_section{
