@@ -119,6 +119,13 @@ a{
     font-weight: 500;
     font-family: 'La Belle Aurore', cursive;
     color: var(--secondary);
+    margin-bottom: 0;
+}
+.desc{
+    font-size: 1.0rem;
+    color: var(--tertiary);
+    letter-spacing: 0.07rem;
+    margin-bottom: 1.7rem;
 }
 
 
