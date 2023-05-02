@@ -12,6 +12,9 @@ a{
 
 :root{
     --bg-gradient: linear-gradient(to right, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.75),  rgba(0, 0, 0, 0.55),  rgba(0, 0, 0, 0.5));
+    --primary: #f9f9f9;
+    --secondary: #f76700;
+    --tertiary: #b6b6b6;
 }
 
 .main_section{
@@ -24,8 +27,48 @@ a{
 }
 
 /* Navbar Section */
-
-
+.navbar_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.0rem;
+}
+.menu_btn{
+    background: none;
+    outline: none;
+    border: none;
+}
+.menu_btn i{
+    font-size: 1.5rem;
+    color: var(--secondary);
+}
+.search_section{
+    width: 320px;
+    height: 37px;
+    border-radius: 0px;
+    background: var(--tertiary);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
+}
+.search_section i{
+    font-size: 1.0rem;
+}
+.search_input{
+    width: auto;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.0rem;
+}
 
 
 
