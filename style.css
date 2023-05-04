@@ -163,6 +163,46 @@ a{
     font-family: 'Poppins', sans-serif;
 }
 
+.button_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.3rem;
+}
+.explore{
+    width: 170px;
+    height: 40px;
+    border-radius: 4px;
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.explore:hover{
+    background: transparent;
+    border: 2px solid var(--secondary);
+    color: var(--primary);
+}
+.learn_more{
+    width: 170px;
+    height: 40px;
+    border-radius: 4px;
+    background: transparent;
+    border: 2px solid var(--secondary);
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+.learn_more:hover{
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+    color: var(--primary);
+}
+
 
 
 
