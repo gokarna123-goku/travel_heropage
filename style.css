@@ -148,6 +148,25 @@ a{
     margin-bottom: 1.2rem;
     z-index: -1;
 }
+.style_title{
+    font-size: 5.78rem;
+    font-weight: 500;
+    font-family: 'La Belle Aurore', cursive;
+    color: var(--secondary);
+    margin-bottom: 0;
+}
+.desc{
+    font-size: 1.0rem;
+    color: var(--tertiary);
+    letter-spacing: 0.07rem;
+    margin-bottom: 2.8rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
 
 /* Image section */
 .img_section{
