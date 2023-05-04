@@ -147,6 +147,7 @@ a{
     text-transform: uppercase;
     margin-bottom: 1.2rem;
     z-index: -1;
+    animation: moveToRight 1.5s ease-out 1 alternate;
 }
 .style_title{
     font-size: 5.78rem;
@@ -154,6 +155,7 @@ a{
     font-family: 'La Belle Aurore', cursive;
     color: var(--secondary);
     margin-bottom: 0;
+    animation: moveToRight 1.8s ease-out 1 alternate;
 }
 .desc{
     font-size: 1.0rem;
@@ -161,6 +163,7 @@ a{
     letter-spacing: 0.07rem;
     margin-bottom: 2.8rem;
     font-family: 'Poppins', sans-serif;
+    animation: moveToRight 2.1s ease-out 1 alternate;
 }
 
 .button_section{
@@ -179,6 +182,7 @@ a{
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s ease-out;
+    animation: moveToRight 2.8s ease-out 1 alternate;
 }
 .explore:hover{
     background: transparent;
@@ -196,16 +200,13 @@ a{
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s ease-out;
+    animation: moveToRight 2.4s ease-out 1 alternate;
 }
 .learn_more:hover{
     background: var(--secondary);
     border: 2px solid var(--secondary);
     color: var(--primary);
 }
-
-
-
-
 
 
 /* Image section */
@@ -217,6 +218,26 @@ a{
     width: 100%;
     height: 100%;
     z-index: 9999;
+    animation: moveToLeft 1.5s ease-out 1 alternate;
+}
+
+
+/* Animation Section */
+@keyframes moveToRight {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes moveToLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 
