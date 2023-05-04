@@ -84,6 +84,23 @@ a{
     border: none;
     cursor: pointer;
 }
+.menu_btn i{
+    font-size: 1.7rem;
+    color: var(--secondary);
+}
+.search_section{
+    width: 320px;
+    height: 37px;
+    border-radius: 4px;
+    background: var(--tertiary);
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
+}
+.search_section i{
+    font-size: 1.0rem;
+}
 
 
 
