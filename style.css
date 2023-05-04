@@ -135,6 +135,19 @@ a{
     align-items: center;
     justify-content: space-between;
 }
+.data{
+    width: 45%;
+    height: auto;
+}
+.title{
+    font-size: 5.2rem;
+    font-weight: bolder;
+    letter-spacing: 0.1rem;
+    color: var(--primary);
+    text-transform: uppercase;
+    margin-bottom: 1.2rem;
+    z-index: -1;
+}
 
 
 
