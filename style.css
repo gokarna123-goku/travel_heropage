@@ -149,6 +149,17 @@ a{
     z-index: -1;
 }
 
+/* Image section */
+.img_section{
+    width: 55%;
+    height: 89.9vh;
+}
+.img_section img{
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+}
+
 
 
 
