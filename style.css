@@ -120,6 +120,11 @@ a{
     font-weight: 600;
     cursor: pointer;
 }
+.contact_btn:hover{
+    background: transparent;
+    border: 2px solid var(--secondary);
+    color: var(--primary);
+}
 
 
 
