@@ -101,6 +101,14 @@ a{
 .search_section i{
     font-size: 1.0rem;
 }
+.search_input{
+    width: auto;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 1.0rem;
+}
 
 
 
