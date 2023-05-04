@@ -47,6 +47,23 @@ a{
     top: 21%;
     left: 0;
 }
+.plane_img{
+    width: 100px;
+    height: 40px;
+    animation: flyingPlane 15s ease-out infinite reverse;
+}
+
+@keyframes flyingPlane {
+    0% {
+        transform: translateX(1500%);
+    }
+    90% {
+        transform: translateY(30px);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
 
 
 
