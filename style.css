@@ -109,6 +109,17 @@ a{
     border: none;
     font-size: 1.0rem;
 }
+.contact_btn{
+    width: 150px;
+    height: 37px;
+    border-radius: 4px;
+    background: var(--secondary);
+    border: 2px solid var(--secondary);
+    color: var(--primary);
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
 
 
 
