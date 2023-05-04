@@ -119,6 +119,7 @@ a{
     font-size: 1.1rem;
     font-weight: 600;
     cursor: pointer;
+    transition: 0.5s ease-out;
 }
 .contact_btn:hover{
     background: transparent;
