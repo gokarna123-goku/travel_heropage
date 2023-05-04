@@ -27,7 +27,7 @@ a{
     position: relative;
     width: 100%;
     max-height: 100vh;
-    background: var(--bg-gradient), url("https://cdn.pixabay.com/photo/2014/11/15/23/30/yellow-mountains-532857_960_720.jpg") no-repeat;
+    background: var(--bg-gradient), url("./img/travel_bg.jpg") no-repeat;
     background-position: center center;
     background-size: cover;
     padding: 40px 175px;
