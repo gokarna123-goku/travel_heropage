@@ -65,6 +65,26 @@ a{
     }
 }
 
+/* NAvbar Section */
+.navbar_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_section{
+    display: flex;
+    align-items: center;
+    column-gap: 1.3rem;
+}
+.menu_btn{
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
 
 
 
