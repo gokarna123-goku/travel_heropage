@@ -127,6 +127,16 @@ a{
     color: var(--primary);
 }
 
+/* Hero Section */
+.hero_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 
 
